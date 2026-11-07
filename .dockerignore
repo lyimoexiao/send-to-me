@@ -1,0 +1,15 @@
+.git
+.github
+.env
+.env.*
+!.env.example
+data
+bin
+*.db
+*.db-wal
+*.db-shm
+*.log
+web/node_modules
+web/dist
+web/.vite
+docs

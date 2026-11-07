@@ -1,0 +1,15 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+data/
+bin/
+*.log
+*.db
+*.db-shm
+*.db-wal
+web/node_modules/
+web/.vite/
+web/package-lock.json
+
+# web/dist is intentionally kept: main.go embeds it with go:embed.
